@@ -1,5 +1,6 @@
+# Data types in python
 # integer
-a="kothi"
+a="hello"
 print(type(a))
 # tuple
 b=(1,2,3)
@@ -11,5 +12,11 @@ c.append(45)
 print(c)
 c.remove(21)
 print(c)
-b.append(67)
-print(b)
+
+# OUTPUT:
+# c/sem3/python/datatype.py
+# <class 'str'>
+# <class 'tuple'>
+# <class 'list'>
+# [23, 21, 56, 45]
+# [23, 56, 45]
